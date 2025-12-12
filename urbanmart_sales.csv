@@ -1,101 +1,401 @@
 transaction_id,bill_id,date,store_id,store_location,customer_id,customer_segment,product_id,product_category,product_name,quantity,unit_price,payment_method,discount_applied,channel
-TXN-2025-0001,BILL-1001,2025-01-02,S1,Downtown,C001,Regular,P101,Beverages,Orange Juice 1L,2,3.50,Credit Card,0.50,In-store
-TXN-2025-0002,BILL-1001,2025-01-02,S1,Downtown,C001,Regular,P201,Snacks,Potato Chips,3,1.20,Credit Card,0.00,In-store
-TXN-2025-0003,BILL-1002,2025-01-02,S2,Suburban,C002,Loyal,P301,Personal Care,Shampoo 250ml,1,4.00,UPI,1.00,Online
-TXN-2025-0004,BILL-1003,2025-01-03,S1,Downtown,C003,New,P102,Beverages,Apple Juice 1L,2,3.75,Cash,0.00,In-store
-TXN-2025-0005,BILL-1003,2025-01-03,S1,Downtown,C003,New,P202,Snacks,Nachos Pack,1,2.50,Cash,0.25,In-store
-TXN-2025-0006,BILL-1004,2025-01-03,S3,Uptown,C004,Loyal,P401,Dairy,Milk 1L,3,1.80,Credit Card,0.00,In-store
-TXN-2025-0007,BILL-1004,2025-01-03,S3,Uptown,C004,Loyal,P402,Dairy,Cheese 200g,2,3.20,Credit Card,0.50,In-store
-TXN-2025-0008,BILL-1005,2025-01-04,S2,Suburban,C005,Regular,P501,Grocery,Rice 5kg,1,8.50,UPI,0.00,Online
-TXN-2025-0009,BILL-1005,2025-01-04,S2,Suburban,C005,Regular,P502,Grocery,Wheat Flour 2kg,2,3.00,UPI,0.00,Online
-TXN-2025-0010,BILL-1006,2025-01-04,S1,Downtown,C006,New,P103,Beverages,Mango Juice 1L,4,3.25,Cash,0.75,In-store
-TXN-2025-0011,BILL-1007,2025-01-05,S3,Uptown,C007,Loyal,P302,Personal Care,Body Lotion 200ml,1,5.50,Credit Card,0.50,In-store
-TXN-2025-0012,BILL-1007,2025-01-05,S3,Uptown,C007,Loyal,P303,Personal Care,Face Wash 100ml,2,3.80,Credit Card,0.00,In-store
-TXN-2025-0013,BILL-1008,2025-01-05,S2,Suburban,C008,Regular,P203,Snacks,Cookies Pack,5,1.50,UPI,0.50,Online
-TXN-2025-0014,BILL-1009,2025-01-06,S1,Downtown,C001,Regular,P104,Beverages,Green Tea Pack,2,4.50,Credit Card,0.00,In-store
-TXN-2025-0015,BILL-1009,2025-01-06,S1,Downtown,C001,Regular,P601,Bakery,Whole Wheat Bread,1,2.25,Credit Card,0.00,In-store
-TXN-2025-0016,BILL-1010,2025-01-06,S2,Suburban,C009,New,P503,Grocery,Sugar 1kg,2,1.50,Cash,0.00,In-store
-TXN-2025-0017,BILL-1010,2025-01-06,S2,Suburban,C009,New,P504,Grocery,Salt 1kg,1,0.80,Cash,0.00,In-store
-TXN-2025-0018,BILL-1011,2025-01-07,S3,Uptown,C010,Loyal,P204,Snacks,Mixed Nuts 250g,2,6.50,UPI,1.00,Online
-TXN-2025-0019,BILL-1012,2025-01-07,S1,Downtown,C002,Loyal,P403,Dairy,Yogurt 500g,3,2.00,Credit Card,0.25,In-store
-TXN-2025-0020,BILL-1012,2025-01-07,S1,Downtown,C002,Loyal,P105,Beverages,Cola 2L,2,2.50,Credit Card,0.00,In-store
-TXN-2025-0021,BILL-1013,2025-01-08,S2,Suburban,C011,Regular,P304,Personal Care,Toothpaste 150g,2,2.20,Cash,0.00,In-store
-TXN-2025-0022,BILL-1013,2025-01-08,S2,Suburban,C011,Regular,P305,Personal Care,Soap Bar 3-Pack,1,3.00,Cash,0.30,In-store
-TXN-2025-0023,BILL-1014,2025-01-08,S3,Uptown,C012,New,P602,Bakery,Croissant 4-Pack,2,4.00,UPI,0.00,Online
-TXN-2025-0024,BILL-1015,2025-01-09,S1,Downtown,C004,Loyal,P505,Grocery,Olive Oil 500ml,1,7.50,Credit Card,0.75,In-store
-TXN-2025-0025,BILL-1015,2025-01-09,S1,Downtown,C004,Loyal,P506,Grocery,Pasta 500g,3,2.00,Credit Card,0.00,In-store
-TXN-2025-0026,BILL-1016,2025-01-09,S2,Suburban,C013,Regular,P205,Snacks,Pretzels Pack,4,1.80,UPI,0.50,Online
-TXN-2025-0027,BILL-1017,2025-01-10,S3,Uptown,C014,Loyal,P106,Beverages,Mineral Water 6-Pack,2,4.00,Cash,0.00,In-store
-TXN-2025-0028,BILL-1017,2025-01-10,S3,Uptown,C014,Loyal,P404,Dairy,Butter 250g,1,3.50,Cash,0.25,In-store
-TXN-2025-0029,BILL-1018,2025-01-10,S1,Downtown,C015,New,P306,Personal Care,Hand Cream 100ml,2,4.20,Credit Card,0.00,Online
-TXN-2025-0030,BILL-1019,2025-01-11,S2,Suburban,C005,Regular,P603,Bakery,Muffins 6-Pack,1,5.00,UPI,0.50,In-store
-TXN-2025-0031,BILL-1019,2025-01-11,S2,Suburban,C005,Regular,P107,Beverages,Lemonade 1L,3,2.80,UPI,0.00,In-store
-TXN-2025-0032,BILL-1020,2025-01-11,S3,Uptown,C016,Loyal,P507,Grocery,Honey 500g,1,6.00,Credit Card,0.50,Online
-TXN-2025-0033,BILL-1021,2025-01-12,S1,Downtown,C007,Loyal,P206,Snacks,Popcorn Pack,5,1.25,Cash,0.00,In-store
-TXN-2025-0034,BILL-1021,2025-01-12,S1,Downtown,C007,Loyal,P207,Snacks,Candy Bar 3-Pack,2,2.00,Cash,0.20,In-store
-TXN-2025-0035,BILL-1022,2025-01-12,S2,Suburban,C017,New,P405,Dairy,Ice Cream 1L,1,5.50,UPI,0.00,In-store
-TXN-2025-0036,BILL-1023,2025-01-13,S3,Uptown,C008,Regular,P307,Personal Care,Deodorant 150ml,2,3.50,Credit Card,0.25,Online
-TXN-2025-0037,BILL-1023,2025-01-13,S3,Uptown,C008,Regular,P308,Personal Care,Razor Pack,1,5.00,Credit Card,0.00,Online
-TXN-2025-0038,BILL-1024,2025-01-13,S1,Downtown,C018,Loyal,P508,Grocery,Cereal Box 500g,2,4.50,Cash,0.50,In-store
-TXN-2025-0039,BILL-1025,2025-01-14,S2,Suburban,C010,Loyal,P108,Beverages,Coconut Water 1L,3,3.00,UPI,0.00,Online
-TXN-2025-0040,BILL-1025,2025-01-14,S2,Suburban,C010,Loyal,P604,Bakery,Bagels 6-Pack,1,3.50,UPI,0.25,Online
-TXN-2025-0041,BILL-1026,2025-01-14,S3,Uptown,C019,New,P406,Dairy,Cream Cheese 200g,2,4.00,Credit Card,0.00,In-store
-TXN-2025-0042,BILL-1027,2025-01-15,S1,Downtown,C003,New,P509,Grocery,Peanut Butter 350g,1,4.50,Cash,0.00,In-store
-TXN-2025-0043,BILL-1027,2025-01-15,S1,Downtown,C003,New,P510,Grocery,Jam 350g,2,3.00,Cash,0.30,In-store
-TXN-2025-0044,BILL-1028,2025-01-15,S2,Suburban,C020,Regular,P208,Snacks,Trail Mix 300g,2,5.00,UPI,0.50,Online
-TXN-2025-0045,BILL-1029,2025-01-16,S3,Uptown,C012,New,P109,Beverages,Energy Drink 4-Pack,1,6.00,Credit Card,0.00,In-store
-TXN-2025-0046,BILL-1029,2025-01-16,S3,Uptown,C012,New,P309,Personal Care,Sunscreen 100ml,1,8.00,Credit Card,1.00,In-store
-TXN-2025-0047,BILL-1030,2025-01-16,S1,Downtown,C006,New,P605,Bakery,Donuts 6-Pack,2,4.50,Cash,0.00,In-store
-TXN-2025-0048,BILL-1031,2025-01-17,S2,Suburban,C001,Regular,P407,Dairy,Paneer 250g,2,3.80,UPI,0.25,Online
-TXN-2025-0049,BILL-1031,2025-01-17,S2,Suburban,C001,Regular,P511,Grocery,Lentils 1kg,3,2.50,UPI,0.00,Online
-TXN-2025-0050,BILL-1032,2025-01-17,S3,Uptown,C021,Loyal,P209,Snacks,Granola Bars 6-Pack,2,4.00,Credit Card,0.40,In-store
-TXN-2025-0051,BILL-1033,2025-01-18,S1,Downtown,C014,Loyal,P110,Beverages,Iced Tea 1L,4,2.50,Cash,0.00,In-store
-TXN-2025-0052,BILL-1033,2025-01-18,S1,Downtown,C014,Loyal,P210,Snacks,Crackers Pack,2,1.80,Cash,0.15,In-store
-TXN-2025-0053,BILL-1034,2025-01-18,S2,Suburban,C022,New,P310,Personal Care,Hair Oil 200ml,1,5.50,UPI,0.50,Online
-TXN-2025-0054,BILL-1035,2025-01-19,S3,Uptown,C016,Loyal,P512,Grocery,Tomato Sauce 500g,3,2.20,Credit Card,0.00,In-store
-TXN-2025-0055,BILL-1035,2025-01-19,S3,Uptown,C016,Loyal,P513,Grocery,Mayonnaise 300g,1,3.50,Credit Card,0.25,In-store
-TXN-2025-0056,BILL-1036,2025-01-19,S1,Downtown,C023,Regular,P606,Bakery,Cake Slice,2,3.00,Cash,0.00,In-store
-TXN-2025-0057,BILL-1037,2025-01-20,S2,Suburban,C011,Regular,P111,Beverages,Sparkling Water 1L,3,2.00,UPI,0.00,Online
-TXN-2025-0058,BILL-1037,2025-01-20,S2,Suburban,C011,Regular,P408,Dairy,Cottage Cheese 250g,1,4.20,UPI,0.30,Online
-TXN-2025-0059,BILL-1038,2025-01-20,S3,Uptown,C024,New,P211,Snacks,Cheese Puffs,4,1.50,Credit Card,0.00,In-store
-TXN-2025-0060,BILL-1039,2025-01-21,S1,Downtown,C018,Loyal,P311,Personal Care,Conditioner 250ml,1,4.50,Cash,0.50,In-store
-TXN-2025-0061,BILL-1039,2025-01-21,S1,Downtown,C018,Loyal,P312,Personal Care,Hair Gel 150ml,2,3.00,Cash,0.00,In-store
-TXN-2025-0062,BILL-1040,2025-01-21,S2,Suburban,C025,Loyal,P514,Grocery,Cooking Oil 1L,1,5.00,UPI,0.00,Online
-TXN-2025-0063,BILL-1041,2025-01-22,S3,Uptown,C019,New,P112,Beverages,Fruit Punch 2L,2,4.00,Credit Card,0.50,In-store
-TXN-2025-0064,BILL-1041,2025-01-22,S3,Uptown,C019,New,P607,Bakery,Baguette,3,2.00,Credit Card,0.00,In-store
-TXN-2025-0065,BILL-1042,2025-01-22,S1,Downtown,C002,Loyal,P409,Dairy,Whipped Cream 250ml,1,3.80,Cash,0.00,In-store
-TXN-2025-0066,BILL-1043,2025-01-23,S2,Suburban,C013,Regular,P212,Snacks,Rice Cakes Pack,3,2.50,UPI,0.25,Online
-TXN-2025-0067,BILL-1043,2025-01-23,S2,Suburban,C013,Regular,P213,Snacks,Dried Fruits 200g,2,4.50,UPI,0.00,Online
-TXN-2025-0068,BILL-1044,2025-01-23,S3,Uptown,C026,Regular,P313,Personal Care,Lip Balm 3-Pack,2,3.20,Credit Card,0.00,In-store
-TXN-2025-0069,BILL-1045,2025-01-24,S1,Downtown,C021,Loyal,P515,Grocery,Spaghetti 500g,4,1.80,Cash,0.00,In-store
-TXN-2025-0070,BILL-1045,2025-01-24,S1,Downtown,C021,Loyal,P516,Grocery,Tomato Paste 200g,2,1.50,Cash,0.10,In-store
-TXN-2025-0071,BILL-1046,2025-01-24,S2,Suburban,C027,New,P113,Beverages,Almond Milk 1L,2,4.50,UPI,0.50,Online
-TXN-2025-0072,BILL-1047,2025-01-25,S3,Uptown,C004,Loyal,P608,Bakery,Cinnamon Rolls 4-Pack,1,5.00,Credit Card,0.00,In-store
-TXN-2025-0073,BILL-1047,2025-01-25,S3,Uptown,C004,Loyal,P410,Dairy,Greek Yogurt 400g,2,3.50,Credit Card,0.30,In-store
-TXN-2025-0074,BILL-1048,2025-01-25,S1,Downtown,C028,Regular,P214,Snacks,Veggie Chips,3,2.80,Cash,0.00,In-store
-TXN-2025-0075,BILL-1049,2025-01-26,S2,Suburban,C015,New,P314,Personal Care,Body Wash 300ml,1,4.80,UPI,0.40,Online
-TXN-2025-0076,BILL-1049,2025-01-26,S2,Suburban,C015,New,P315,Personal Care,Moisturizer 100ml,1,6.00,UPI,0.00,Online
-TXN-2025-0077,BILL-1050,2025-01-26,S3,Uptown,C029,Loyal,P517,Grocery,Quinoa 500g,1,7.00,Credit Card,0.75,In-store
-TXN-2025-0078,BILL-1051,2025-01-27,S1,Downtown,C007,Loyal,P114,Beverages,Herbal Tea Box,2,5.00,Cash,0.00,In-store
-TXN-2025-0079,BILL-1051,2025-01-27,S1,Downtown,C007,Loyal,P609,Bakery,Sourdough Bread,1,3.50,Cash,0.25,In-store
-TXN-2025-0080,BILL-1052,2025-01-27,S2,Suburban,C030,Regular,P411,Dairy,Chocolate Milk 1L,3,2.80,UPI,0.00,Online
-TXN-2025-0081,BILL-1053,2025-01-28,S3,Uptown,C017,New,P215,Snacks,Tortilla Chips,2,2.20,Credit Card,0.00,In-store
-TXN-2025-0082,BILL-1053,2025-01-28,S3,Uptown,C017,New,P216,Snacks,Salsa Dip 300g,1,3.50,Credit Card,0.30,In-store
-TXN-2025-0083,BILL-1054,2025-01-28,S1,Downtown,C010,Loyal,P518,Grocery,Brown Rice 2kg,1,5.50,Cash,0.50,In-store
-TXN-2025-0084,BILL-1055,2025-01-29,S2,Suburban,C022,New,P115,Beverages,Smoothie Mix,2,4.00,UPI,0.00,Online
-TXN-2025-0085,BILL-1055,2025-01-29,S2,Suburban,C022,New,P316,Personal Care,Face Cream 50ml,1,7.50,UPI,0.80,Online
-TXN-2025-0086,BILL-1056,2025-01-29,S3,Uptown,C025,Loyal,P610,Bakery,Garlic Bread,3,2.50,Credit Card,0.00,In-store
-TXN-2025-0087,BILL-1057,2025-01-30,S1,Downtown,C023,Regular,P412,Dairy,Sour Cream 200g,2,2.50,Cash,0.00,In-store
-TXN-2025-0088,BILL-1057,2025-01-30,S1,Downtown,C023,Regular,P519,Grocery,Black Beans 500g,3,2.00,Cash,0.20,In-store
-TXN-2025-0089,BILL-1058,2025-01-30,S2,Suburban,C009,New,P217,Snacks,Seaweed Snacks,4,1.80,UPI,0.00,Online
-TXN-2025-0090,BILL-1059,2025-01-31,S3,Uptown,C026,Regular,P116,Beverages,Hot Chocolate Mix,2,3.50,Credit Card,0.25,In-store
-TXN-2025-0091,BILL-1059,2025-01-31,S3,Uptown,C026,Regular,P317,Personal Care,Hand Sanitizer 250ml,3,2.80,Credit Card,0.00,In-store
-TXN-2025-0092,BILL-1060,2025-01-31,S1,Downtown,C029,Loyal,P611,Bakery,Banana Bread,1,4.00,Cash,0.00,In-store
-TXN-2025-0093,BILL-1061,2025-02-01,S2,Suburban,C020,Regular,P520,Grocery,Chickpeas 500g,2,2.20,UPI,0.00,Online
-TXN-2025-0094,BILL-1061,2025-02-01,S2,Suburban,C020,Regular,P413,Dairy,Feta Cheese 200g,1,4.50,UPI,0.40,Online
-TXN-2025-0095,BILL-1062,2025-02-01,S3,Uptown,C024,New,P218,Snacks,Protein Bars 4-Pack,2,6.00,Credit Card,0.50,In-store
-TXN-2025-0096,BILL-1063,2025-02-02,S1,Downtown,C030,Regular,P117,Beverages,Ginger Ale 1L,3,2.20,Cash,0.00,In-store
-TXN-2025-0097,BILL-1063,2025-02-02,S1,Downtown,C030,Regular,P318,Personal Care,Shaving Cream 200ml,1,3.50,Cash,0.00,In-store
-TXN-2025-0098,BILL-1064,2025-02-02,S2,Suburban,C028,Regular,P612,Bakery,Brownies 4-Pack,2,4.50,UPI,0.35,Online
-TXN-2025-0099,BILL-1065,2025-02-03,S3,Uptown,C008,Regular,P521,Grocery,Maple Syrup 250ml,1,6.50,Credit Card,0.50,In-store
-TXN-2025-0100,BILL-1065,2025-02-03,S3,Uptown,C008,Regular,P414,Dairy,Half and Half 500ml,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0001,BILL-0001,2025-01-01,S1,Downtown,C001,Loyal,P101,Beverages,Orange Juice 1L,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0002,BILL-0001,2025-01-01,S1,Downtown,C001,Loyal,P508,Grocery,Cereal Box 500g,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0003,BILL-0002,2025-01-01,S2,Suburban,C015,Regular,P401,Dairy,Milk 1L,3,1.80,Cash,0.00,In-store
+TXN-2025-0004,BILL-0002,2025-01-01,S2,Suburban,C015,Regular,P601,Bakery,Whole Wheat Bread,2,2.25,Cash,0.00,In-store
+TXN-2025-0005,BILL-0003,2025-01-01,S3,Uptown,C042,New,P301,Personal Care,Shampoo 250ml,1,4.00,UPI,0.40,Online
+TXN-2025-0006,BILL-0004,2025-01-02,S1,Downtown,C008,Loyal,P505,Grocery,Olive Oil 500ml,1,7.50,Credit Card,0.00,In-store
+TXN-2025-0007,BILL-0004,2025-01-02,S1,Downtown,C008,Loyal,P506,Grocery,Pasta 500g,3,2.00,Credit Card,0.00,In-store
+TXN-2025-0008,BILL-0004,2025-01-02,S1,Downtown,C008,Loyal,P403,Dairy,Yogurt 500g,2,2.00,Credit Card,0.00,In-store
+TXN-2025-0009,BILL-0005,2025-01-02,S2,Suburban,C023,Regular,P201,Snacks,Potato Chips,4,1.20,Cash,0.00,In-store
+TXN-2025-0010,BILL-0005,2025-01-02,S2,Suburban,C023,Regular,P105,Beverages,Cola 2L,2,2.50,Cash,0.00,In-store
+TXN-2025-0011,BILL-0006,2025-01-02,S3,Uptown,C031,Loyal,P114,Beverages,Herbal Tea Box,2,5.00,Credit Card,0.00,In-store
+TXN-2025-0012,BILL-0006,2025-01-02,S3,Uptown,C031,Loyal,P507,Grocery,Honey 500g,1,6.00,Credit Card,0.00,In-store
+TXN-2025-0013,BILL-0007,2025-01-03,S1,Downtown,C005,Loyal,P501,Grocery,Rice 5kg,1,8.50,Debit Card,0.85,In-store
+TXN-2025-0014,BILL-0007,2025-01-03,S1,Downtown,C005,Loyal,P502,Grocery,Wheat Flour 2kg,2,3.00,Debit Card,0.00,In-store
+TXN-2025-0015,BILL-0008,2025-01-03,S2,Suburban,C019,Regular,P302,Personal Care,Body Lotion 200ml,1,5.50,UPI,0.00,Online
+TXN-2025-0016,BILL-0008,2025-01-03,S2,Suburban,C019,Regular,P313,Personal Care,Lip Balm 3-Pack,2,3.20,UPI,0.00,Online
+TXN-2025-0017,BILL-0009,2025-01-03,S3,Uptown,C045,New,P602,Bakery,Croissant 4-Pack,2,4.00,Cash,0.00,In-store
+TXN-2025-0018,BILL-0010,2025-01-04,S1,Downtown,C002,Loyal,P116,Beverages,Hot Chocolate Mix,3,3.50,Credit Card,0.00,In-store
+TXN-2025-0019,BILL-0010,2025-01-04,S1,Downtown,C002,Loyal,P603,Bakery,Muffins 6-Pack,1,5.00,Credit Card,0.00,In-store
+TXN-2025-0020,BILL-0011,2025-01-04,S2,Suburban,C028,Regular,P402,Dairy,Cheese 200g,2,3.20,Cash,0.00,In-store
+TXN-2025-0021,BILL-0011,2025-01-04,S2,Suburban,C028,Regular,P404,Dairy,Butter 250g,1,3.50,Cash,0.00,In-store
+TXN-2025-0022,BILL-0012,2025-01-04,S3,Uptown,C038,Loyal,P509,Grocery,Peanut Butter 350g,1,4.50,UPI,0.00,In-store
+TXN-2025-0023,BILL-0012,2025-01-04,S3,Uptown,C038,Loyal,P510,Grocery,Jam 350g,2,3.00,UPI,0.00,In-store
+TXN-2025-0024,BILL-0013,2025-01-05,S1,Downtown,C012,Loyal,P203,Snacks,Cookies Pack,5,1.50,Credit Card,0.00,In-store
+TXN-2025-0025,BILL-0013,2025-01-05,S1,Downtown,C012,Loyal,P207,Snacks,Candy Bar 3-Pack,3,2.00,Credit Card,0.00,In-store
+TXN-2025-0026,BILL-0014,2025-01-05,S2,Suburban,C016,Regular,P304,Personal Care,Toothpaste 150g,2,2.20,Cash,0.00,In-store
+TXN-2025-0027,BILL-0014,2025-01-05,S2,Suburban,C016,Regular,P305,Personal Care,Soap Bar 3-Pack,1,3.00,Cash,0.00,In-store
+TXN-2025-0028,BILL-0015,2025-01-05,S3,Uptown,C033,Loyal,P405,Dairy,Ice Cream 1L,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0029,BILL-0016,2025-01-06,S1,Downtown,C003,Loyal,P511,Grocery,Lentils 1kg,2,2.50,Debit Card,0.00,In-store
+TXN-2025-0030,BILL-0016,2025-01-06,S1,Downtown,C003,Loyal,P514,Grocery,Cooking Oil 1L,1,5.00,Debit Card,0.00,In-store
+TXN-2025-0031,BILL-0017,2025-01-06,S2,Suburban,C021,Regular,P104,Beverages,Green Tea Pack,2,4.50,UPI,0.00,Online
+TXN-2025-0032,BILL-0018,2025-01-06,S3,Uptown,C047,New,P604,Bakery,Bagels 6-Pack,1,3.50,Cash,0.00,In-store
+TXN-2025-0033,BILL-0019,2025-01-07,S1,Downtown,C009,Loyal,P204,Snacks,Mixed Nuts 250g,2,6.50,Credit Card,0.00,In-store
+TXN-2025-0034,BILL-0019,2025-01-07,S1,Downtown,C009,Loyal,P213,Snacks,Dried Fruits 200g,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0035,BILL-0020,2025-01-07,S2,Suburban,C025,Regular,P401,Dairy,Milk 1L,4,1.80,Cash,0.00,In-store
+TXN-2025-0036,BILL-0020,2025-01-07,S2,Suburban,C025,Regular,P411,Dairy,Chocolate Milk 1L,2,2.80,Cash,0.00,In-store
+TXN-2025-0037,BILL-0021,2025-01-07,S3,Uptown,C035,Loyal,P306,Personal Care,Hand Cream 100ml,1,4.20,UPI,0.00,In-store
+TXN-2025-0038,BILL-0022,2025-01-08,S1,Downtown,C006,Loyal,P517,Grocery,Quinoa 500g,1,7.00,Credit Card,0.70,In-store
+TXN-2025-0039,BILL-0022,2025-01-08,S1,Downtown,C006,Loyal,P518,Grocery,Brown Rice 2kg,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0040,BILL-0023,2025-01-08,S2,Suburban,C018,Regular,P605,Bakery,Donuts 6-Pack,2,4.50,Cash,0.00,In-store
+TXN-2025-0041,BILL-0024,2025-01-08,S3,Uptown,C041,New,P109,Beverages,Energy Drink 4-Pack,1,6.00,Debit Card,0.00,In-store
+TXN-2025-0042,BILL-0025,2025-01-09,S1,Downtown,C010,Loyal,P315,Personal Care,Moisturizer 100ml,1,6.00,Credit Card,0.00,In-store
+TXN-2025-0043,BILL-0025,2025-01-09,S1,Downtown,C010,Loyal,P311,Personal Care,Conditioner 250ml,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0044,BILL-0026,2025-01-09,S2,Suburban,C027,Regular,P206,Snacks,Popcorn Pack,4,1.25,Cash,0.00,In-store
+TXN-2025-0045,BILL-0027,2025-01-09,S3,Uptown,C036,Loyal,P608,Bakery,Cinnamon Rolls 4-Pack,1,5.00,UPI,0.00,In-store
+TXN-2025-0046,BILL-0028,2025-01-10,S1,Downtown,C004,Loyal,P406,Dairy,Cream Cheese 200g,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0047,BILL-0028,2025-01-10,S1,Downtown,C004,Loyal,P410,Dairy,Greek Yogurt 400g,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0048,BILL-0029,2025-01-10,S2,Suburban,C022,Regular,P117,Beverages,Ginger Ale 1L,3,2.20,Cash,0.00,In-store
+TXN-2025-0049,BILL-0030,2025-01-10,S3,Uptown,C039,Loyal,P512,Grocery,Tomato Sauce 500g,3,2.20,Debit Card,0.00,In-store
+TXN-2025-0050,BILL-0030,2025-01-10,S3,Uptown,C039,Loyal,P513,Grocery,Mayonnaise 300g,1,3.50,Debit Card,0.00,In-store
+TXN-2025-0051,BILL-0031,2025-01-11,S1,Downtown,C007,Loyal,P209,Snacks,Granola Bars 6-Pack,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0052,BILL-0031,2025-01-11,S1,Downtown,C007,Loyal,P218,Snacks,Protein Bars 4-Pack,1,6.00,Credit Card,0.00,In-store
+TXN-2025-0053,BILL-0032,2025-01-11,S2,Suburban,C024,Regular,P309,Personal Care,Sunscreen 100ml,1,8.00,UPI,0.00,Online
+TXN-2025-0054,BILL-0033,2025-01-11,S3,Uptown,C048,New,P606,Bakery,Cake Slice,2,3.00,Cash,0.00,In-store
+TXN-2025-0055,BILL-0034,2025-01-12,S1,Downtown,C011,Loyal,P501,Grocery,Rice 5kg,2,8.50,Credit Card,0.00,In-store
+TXN-2025-0056,BILL-0034,2025-01-12,S1,Downtown,C011,Loyal,P503,Grocery,Sugar 1kg,3,1.50,Credit Card,0.00,In-store
+TXN-2025-0057,BILL-0035,2025-01-12,S2,Suburban,C017,Regular,P407,Dairy,Paneer 250g,2,3.80,Cash,0.00,In-store
+TXN-2025-0058,BILL-0036,2025-01-12,S3,Uptown,C032,Loyal,P111,Beverages,Sparkling Water 1L,4,2.00,Debit Card,0.00,In-store
+TXN-2025-0059,BILL-0037,2025-01-13,S1,Downtown,C001,Loyal,P310,Personal Care,Hair Oil 200ml,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0060,BILL-0037,2025-01-13,S1,Downtown,C001,Loyal,P312,Personal Care,Hair Gel 150ml,1,3.00,Credit Card,0.00,In-store
+TXN-2025-0061,BILL-0038,2025-01-13,S2,Suburban,C020,Regular,P202,Snacks,Nachos Pack,3,2.50,Cash,0.00,In-store
+TXN-2025-0062,BILL-0039,2025-01-13,S3,Uptown,C044,New,P609,Bakery,Sourdough Bread,1,3.50,UPI,0.00,In-store
+TXN-2025-0063,BILL-0040,2025-01-14,S1,Downtown,C008,Loyal,P519,Grocery,Black Beans 500g,2,2.00,Credit Card,0.00,In-store
+TXN-2025-0064,BILL-0040,2025-01-14,S1,Downtown,C008,Loyal,P520,Grocery,Chickpeas 500g,2,2.20,Credit Card,0.00,In-store
+TXN-2025-0065,BILL-0041,2025-01-14,S2,Suburban,C026,Regular,P408,Dairy,Cottage Cheese 250g,1,4.20,Cash,0.00,In-store
+TXN-2025-0066,BILL-0042,2025-01-14,S3,Uptown,C037,Loyal,P113,Beverages,Almond Milk 1L,2,4.50,Debit Card,0.00,In-store
+TXN-2025-0067,BILL-0043,2025-01-15,S1,Downtown,C005,Loyal,P610,Bakery,Garlic Bread,3,2.50,Credit Card,0.00,In-store
+TXN-2025-0068,BILL-0043,2025-01-15,S1,Downtown,C005,Loyal,P607,Bakery,Baguette,2,2.00,Credit Card,0.00,In-store
+TXN-2025-0069,BILL-0044,2025-01-15,S2,Suburban,C029,Regular,P205,Snacks,Pretzels Pack,4,1.80,UPI,0.00,Online
+TXN-2025-0070,BILL-0045,2025-01-15,S3,Uptown,C034,Loyal,P316,Personal Care,Face Cream 50ml,1,7.50,Credit Card,0.00,In-store
+TXN-2025-0071,BILL-0046,2025-01-16,S1,Downtown,C002,Loyal,P412,Dairy,Sour Cream 200g,2,2.50,Debit Card,0.00,In-store
+TXN-2025-0072,BILL-0046,2025-01-16,S1,Downtown,C002,Loyal,P413,Dairy,Feta Cheese 200g,1,4.50,Debit Card,0.00,In-store
+TXN-2025-0073,BILL-0047,2025-01-16,S2,Suburban,C014,Regular,P208,Snacks,Trail Mix 300g,2,5.00,Cash,0.00,In-store
+TXN-2025-0074,BILL-0048,2025-01-16,S3,Uptown,C040,Loyal,P515,Grocery,Spaghetti 500g,4,1.80,UPI,0.00,In-store
+TXN-2025-0075,BILL-0049,2025-01-17,S1,Downtown,C012,Loyal,P303,Personal Care,Face Wash 100ml,2,3.80,Credit Card,0.00,In-store
+TXN-2025-0076,BILL-0049,2025-01-17,S1,Downtown,C012,Loyal,P317,Personal Care,Hand Sanitizer 250ml,2,2.80,Credit Card,0.00,In-store
+TXN-2025-0077,BILL-0050,2025-01-17,S2,Suburban,C023,Regular,P611,Bakery,Banana Bread,1,4.00,Cash,0.00,In-store
+TXN-2025-0078,BILL-0051,2025-01-17,S3,Uptown,C046,New,P102,Beverages,Apple Juice 1L,3,3.75,Debit Card,0.00,In-store
+TXN-2025-0079,BILL-0052,2025-01-18,S1,Downtown,C003,Loyal,P414,Dairy,Half and Half 500ml,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0080,BILL-0052,2025-01-18,S1,Downtown,C003,Loyal,P409,Dairy,Whipped Cream 250ml,1,3.80,Credit Card,0.00,In-store
+TXN-2025-0081,BILL-0053,2025-01-18,S2,Suburban,C019,Regular,P210,Snacks,Crackers Pack,3,1.80,UPI,0.00,Online
+TXN-2025-0082,BILL-0054,2025-01-18,S3,Uptown,C031,Loyal,P521,Grocery,Maple Syrup 250ml,1,6.50,Credit Card,0.00,In-store
+TXN-2025-0083,BILL-0055,2025-01-19,S1,Downtown,C009,Loyal,P612,Bakery,Brownies 4-Pack,2,4.50,Debit Card,0.00,In-store
+TXN-2025-0084,BILL-0055,2025-01-19,S1,Downtown,C009,Loyal,P613,Bakery,Chocolate Cake Slice,1,3.50,Debit Card,0.00,In-store
+TXN-2025-0085,BILL-0056,2025-01-19,S2,Suburban,C021,Regular,P308,Personal Care,Razor Pack,1,5.00,Cash,0.00,In-store
+TXN-2025-0086,BILL-0057,2025-01-19,S3,Uptown,C033,Loyal,P211,Snacks,Cheese Puffs,5,1.50,UPI,0.00,In-store
+TXN-2025-0087,BILL-0058,2025-01-20,S1,Downtown,C006,Loyal,P103,Beverages,Mango Juice 1L,3,3.25,Credit Card,0.00,In-store
+TXN-2025-0088,BILL-0058,2025-01-20,S1,Downtown,C006,Loyal,P107,Beverages,Lemonade 1L,2,2.80,Credit Card,0.00,In-store
+TXN-2025-0089,BILL-0059,2025-01-20,S2,Suburban,C028,Regular,P516,Grocery,Tomato Paste 200g,3,1.50,Cash,0.00,In-store
+TXN-2025-0090,BILL-0060,2025-01-20,S3,Uptown,C038,Loyal,P614,Bakery,Fruit Tart,1,4.00,Credit Card,0.00,In-store
+TXN-2025-0091,BILL-0061,2025-01-21,S1,Downtown,C010,Loyal,P212,Snacks,Rice Cakes Pack,2,2.50,Debit Card,0.00,In-store
+TXN-2025-0092,BILL-0061,2025-01-21,S1,Downtown,C010,Loyal,P214,Snacks,Veggie Chips,2,2.80,Debit Card,0.00,In-store
+TXN-2025-0093,BILL-0062,2025-01-21,S2,Suburban,C016,Regular,P318,Personal Care,Shaving Cream 200ml,1,3.50,UPI,0.00,Online
+TXN-2025-0094,BILL-0063,2025-01-21,S3,Uptown,C035,Loyal,P504,Grocery,Salt 1kg,2,0.80,Cash,0.00,In-store
+TXN-2025-0095,BILL-0064,2025-01-22,S1,Downtown,C004,Loyal,P615,Bakery,Cheesecake Slice,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0096,BILL-0065,2025-01-22,S2,Suburban,C025,Regular,P106,Beverages,Mineral Water 6-Pack,2,4.00,Cash,0.00,In-store
+TXN-2025-0097,BILL-0066,2025-01-22,S3,Uptown,C041,New,P307,Personal Care,Deodorant 150ml,2,3.50,Debit Card,0.00,In-store
+TXN-2025-0098,BILL-0067,2025-01-23,S1,Downtown,C007,Loyal,P401,Dairy,Milk 1L,4,1.80,Credit Card,0.00,In-store
+TXN-2025-0099,BILL-0067,2025-01-23,S1,Downtown,C007,Loyal,P402,Dairy,Cheese 200g,2,3.20,Credit Card,0.00,In-store
+TXN-2025-0100,BILL-0068,2025-01-23,S2,Suburban,C018,Regular,P215,Snacks,Tortilla Chips,3,2.20,Cash,0.00,In-store
+TXN-2025-0101,BILL-0069,2025-01-23,S3,Uptown,C036,Loyal,P108,Beverages,Coconut Water 1L,3,3.00,UPI,0.00,In-store
+TXN-2025-0102,BILL-0070,2025-01-24,S1,Downtown,C011,Loyal,P314,Personal Care,Body Wash 300ml,1,4.80,Credit Card,0.00,In-store
+TXN-2025-0103,BILL-0070,2025-01-24,S1,Downtown,C011,Loyal,P301,Personal Care,Shampoo 250ml,1,4.00,Credit Card,0.00,In-store
+TXN-2025-0104,BILL-0071,2025-01-24,S2,Suburban,C027,Regular,P501,Grocery,Rice 5kg,1,8.50,Cash,0.00,In-store
+TXN-2025-0105,BILL-0072,2025-01-24,S3,Uptown,C039,Loyal,P216,Snacks,Salsa Dip 300g,2,3.50,Debit Card,0.00,In-store
+TXN-2025-0106,BILL-0073,2025-01-25,S1,Downtown,C001,Loyal,P505,Grocery,Olive Oil 500ml,1,7.50,Credit Card,0.00,In-store
+TXN-2025-0107,BILL-0073,2025-01-25,S1,Downtown,C001,Loyal,P506,Grocery,Pasta 500g,2,2.00,Credit Card,0.00,In-store
+TXN-2025-0108,BILL-0074,2025-01-25,S2,Suburban,C022,Regular,P217,Snacks,Seaweed Snacks,4,1.80,UPI,0.00,Online
+TXN-2025-0109,BILL-0075,2025-01-25,S3,Uptown,C032,Loyal,P602,Bakery,Croissant 4-Pack,2,4.00,Cash,0.00,In-store
+TXN-2025-0110,BILL-0076,2025-01-26,S1,Downtown,C008,Loyal,P110,Beverages,Iced Tea 1L,4,2.50,Credit Card,0.00,In-store
+TXN-2025-0111,BILL-0076,2025-01-26,S1,Downtown,C008,Loyal,P115,Beverages,Smoothie Mix,1,4.00,Credit Card,0.00,In-store
+TXN-2025-0112,BILL-0077,2025-01-26,S2,Suburban,C024,Regular,P403,Dairy,Yogurt 500g,3,2.00,Cash,0.00,In-store
+TXN-2025-0113,BILL-0078,2025-01-26,S3,Uptown,C044,New,P511,Grocery,Lentils 1kg,2,2.50,Debit Card,0.00,In-store
+TXN-2025-0114,BILL-0079,2025-01-27,S1,Downtown,C005,Loyal,P604,Bakery,Bagels 6-Pack,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0115,BILL-0079,2025-01-27,S1,Downtown,C005,Loyal,P603,Bakery,Muffins 6-Pack,1,5.00,Credit Card,0.00,In-store
+TXN-2025-0116,BILL-0080,2025-01-27,S2,Suburban,C017,Regular,P302,Personal Care,Body Lotion 200ml,1,5.50,UPI,0.00,Online
+TXN-2025-0117,BILL-0081,2025-01-27,S3,Uptown,C037,Loyal,P207,Snacks,Candy Bar 3-Pack,4,2.00,Cash,0.00,In-store
+TXN-2025-0118,BILL-0082,2025-01-28,S1,Downtown,C002,Loyal,P508,Grocery,Cereal Box 500g,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0119,BILL-0082,2025-01-28,S1,Downtown,C002,Loyal,P509,Grocery,Peanut Butter 350g,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0120,BILL-0083,2025-01-28,S2,Suburban,C020,Regular,P404,Dairy,Butter 250g,2,3.50,Cash,0.00,In-store
+TXN-2025-0121,BILL-0084,2025-01-28,S3,Uptown,C040,Loyal,P112,Beverages,Fruit Punch 2L,2,4.00,Debit Card,0.00,In-store
+TXN-2025-0122,BILL-0085,2025-01-29,S1,Downtown,C012,Loyal,P517,Grocery,Quinoa 500g,1,7.00,Credit Card,0.00,In-store
+TXN-2025-0123,BILL-0085,2025-01-29,S1,Downtown,C012,Loyal,P518,Grocery,Brown Rice 2kg,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0124,BILL-0086,2025-01-29,S2,Suburban,C026,Regular,P605,Bakery,Donuts 6-Pack,2,4.50,Cash,0.00,In-store
+TXN-2025-0125,BILL-0087,2025-01-29,S3,Uptown,C033,Loyal,P313,Personal Care,Lip Balm 3-Pack,2,3.20,UPI,0.00,In-store
+TXN-2025-0126,BILL-0088,2025-01-30,S1,Downtown,C003,Loyal,P201,Snacks,Potato Chips,5,1.20,Credit Card,0.00,In-store
+TXN-2025-0127,BILL-0088,2025-01-30,S1,Downtown,C003,Loyal,P203,Snacks,Cookies Pack,4,1.50,Credit Card,0.00,In-store
+TXN-2025-0128,BILL-0089,2025-01-30,S2,Suburban,C029,Regular,P405,Dairy,Ice Cream 1L,1,5.50,Cash,0.00,In-store
+TXN-2025-0129,BILL-0090,2025-01-30,S3,Uptown,C035,Loyal,P514,Grocery,Cooking Oil 1L,1,5.00,Debit Card,0.00,In-store
+TXN-2025-0130,BILL-0091,2025-01-31,S1,Downtown,C009,Loyal,P310,Personal Care,Hair Oil 200ml,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0131,BILL-0091,2025-01-31,S1,Downtown,C009,Loyal,P311,Personal Care,Conditioner 250ml,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0132,BILL-0092,2025-01-31,S2,Suburban,C014,Regular,P101,Beverages,Orange Juice 1L,3,3.50,UPI,0.00,Online
+TXN-2025-0133,BILL-0093,2025-01-31,S3,Uptown,C048,New,P606,Bakery,Cake Slice,2,3.00,Cash,0.00,In-store
+TXN-2025-0134,BILL-0094,2025-02-01,S1,Downtown,C006,Loyal,P502,Grocery,Wheat Flour 2kg,3,3.00,Credit Card,0.00,In-store
+TXN-2025-0135,BILL-0094,2025-02-01,S1,Downtown,C006,Loyal,P503,Grocery,Sugar 1kg,2,1.50,Credit Card,0.00,In-store
+TXN-2025-0136,BILL-0095,2025-02-01,S2,Suburban,C023,Regular,P406,Dairy,Cream Cheese 200g,2,4.00,Cash,0.00,In-store
+TXN-2025-0137,BILL-0096,2025-02-01,S3,Uptown,C031,Loyal,P608,Bakery,Cinnamon Rolls 4-Pack,2,5.00,Debit Card,0.00,In-store
+TXN-2025-0138,BILL-0097,2025-02-02,S1,Downtown,C010,Loyal,P116,Beverages,Hot Chocolate Mix,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0139,BILL-0097,2025-02-02,S1,Downtown,C010,Loyal,P114,Beverages,Herbal Tea Box,1,5.00,Credit Card,0.00,In-store
+TXN-2025-0140,BILL-0098,2025-02-02,S2,Suburban,C019,Regular,P204,Snacks,Mixed Nuts 250g,2,6.50,Cash,0.00,In-store
+TXN-2025-0141,BILL-0099,2025-02-02,S3,Uptown,C038,Loyal,P407,Dairy,Paneer 250g,2,3.80,UPI,0.00,In-store
+TXN-2025-0142,BILL-0100,2025-02-03,S1,Downtown,C004,Loyal,P609,Bakery,Sourdough Bread,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0143,BILL-0100,2025-02-03,S1,Downtown,C004,Loyal,P601,Bakery,Whole Wheat Bread,2,2.25,Credit Card,0.00,In-store
+TXN-2025-0144,BILL-0101,2025-02-03,S2,Suburban,C021,Regular,P315,Personal Care,Moisturizer 100ml,1,6.00,Cash,0.00,In-store
+TXN-2025-0145,BILL-0102,2025-02-03,S3,Uptown,C042,New,P105,Beverages,Cola 2L,3,2.50,Debit Card,0.00,In-store
+TXN-2025-0146,BILL-0103,2025-02-04,S1,Downtown,C007,Loyal,P410,Dairy,Greek Yogurt 400g,3,3.50,Credit Card,0.00,In-store
+TXN-2025-0147,BILL-0103,2025-02-04,S1,Downtown,C007,Loyal,P403,Dairy,Yogurt 500g,2,2.00,Credit Card,0.00,In-store
+TXN-2025-0148,BILL-0104,2025-02-04,S2,Suburban,C028,Regular,P512,Grocery,Tomato Sauce 500g,3,2.20,UPI,0.00,Online
+TXN-2025-0149,BILL-0105,2025-02-04,S3,Uptown,C034,Loyal,P206,Snacks,Popcorn Pack,5,1.25,Cash,0.00,In-store
+TXN-2025-0150,BILL-0106,2025-02-05,S1,Downtown,C011,Loyal,P304,Personal Care,Toothpaste 150g,2,2.20,Credit Card,0.00,In-store
+TXN-2025-0151,BILL-0106,2025-02-05,S1,Downtown,C011,Loyal,P305,Personal Care,Soap Bar 3-Pack,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0152,BILL-0107,2025-02-05,S2,Suburban,C016,Regular,P610,Bakery,Garlic Bread,2,2.50,Cash,0.00,In-store
+TXN-2025-0153,BILL-0108,2025-02-05,S3,Uptown,C036,Loyal,P519,Grocery,Black Beans 500g,3,2.00,Debit Card,0.00,In-store
+TXN-2025-0154,BILL-0109,2025-02-06,S1,Downtown,C001,Loyal,P111,Beverages,Sparkling Water 1L,4,2.00,Credit Card,0.00,In-store
+TXN-2025-0155,BILL-0109,2025-02-06,S1,Downtown,C001,Loyal,P117,Beverages,Ginger Ale 1L,2,2.20,Credit Card,0.00,In-store
+TXN-2025-0156,BILL-0110,2025-02-06,S2,Suburban,C025,Regular,P408,Dairy,Cottage Cheese 250g,2,4.20,Cash,0.00,In-store
+TXN-2025-0157,BILL-0111,2025-02-06,S3,Uptown,C039,Loyal,P611,Bakery,Banana Bread,1,4.00,UPI,0.00,In-store
+TXN-2025-0158,BILL-0112,2025-02-07,S1,Downtown,C008,Loyal,P213,Snacks,Dried Fruits 200g,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0159,BILL-0112,2025-02-07,S1,Downtown,C008,Loyal,P218,Snacks,Protein Bars 4-Pack,1,6.00,Credit Card,0.00,In-store
+TXN-2025-0160,BILL-0113,2025-02-07,S2,Suburban,C018,Regular,P306,Personal Care,Hand Cream 100ml,1,4.20,Cash,0.00,In-store
+TXN-2025-0161,BILL-0114,2025-02-07,S3,Uptown,C045,New,P501,Grocery,Rice 5kg,1,8.50,Debit Card,0.00,In-store
+TXN-2025-0162,BILL-0115,2025-02-08,S1,Downtown,C005,Loyal,P414,Dairy,Half and Half 500ml,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0163,BILL-0115,2025-02-08,S1,Downtown,C005,Loyal,P411,Dairy,Chocolate Milk 1L,2,2.80,Credit Card,0.00,In-store
+TXN-2025-0164,BILL-0116,2025-02-08,S2,Suburban,C027,Regular,P602,Bakery,Croissant 4-Pack,2,4.00,UPI,0.00,Online
+TXN-2025-0165,BILL-0117,2025-02-08,S3,Uptown,C032,Loyal,P520,Grocery,Chickpeas 500g,3,2.20,Cash,0.00,In-store
+TXN-2025-0166,BILL-0118,2025-02-09,S1,Downtown,C002,Loyal,P307,Personal Care,Deodorant 150ml,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0167,BILL-0118,2025-02-09,S1,Downtown,C002,Loyal,P303,Personal Care,Face Wash 100ml,1,3.80,Credit Card,0.00,In-store
+TXN-2025-0168,BILL-0119,2025-02-09,S2,Suburban,C022,Regular,P209,Snacks,Granola Bars 6-Pack,2,4.00,Cash,0.00,In-store
+TXN-2025-0169,BILL-0120,2025-02-09,S3,Uptown,C037,Loyal,P107,Beverages,Lemonade 1L,3,2.80,Debit Card,0.00,In-store
+TXN-2025-0170,BILL-0121,2025-02-10,S1,Downtown,C012,Loyal,P515,Grocery,Spaghetti 500g,4,1.80,Credit Card,0.00,In-store
+TXN-2025-0171,BILL-0121,2025-02-10,S1,Downtown,C012,Loyal,P516,Grocery,Tomato Paste 200g,2,1.50,Credit Card,0.00,In-store
+TXN-2025-0172,BILL-0122,2025-02-10,S2,Suburban,C024,Regular,P612,Bakery,Brownies 4-Pack,2,4.50,Cash,0.00,In-store
+TXN-2025-0173,BILL-0123,2025-02-10,S3,Uptown,C040,Loyal,P412,Dairy,Sour Cream 200g,2,2.50,UPI,0.00,In-store
+TXN-2025-0174,BILL-0124,2025-02-11,S1,Downtown,C003,Loyal,P102,Beverages,Apple Juice 1L,3,3.75,Credit Card,0.00,In-store
+TXN-2025-0175,BILL-0124,2025-02-11,S1,Downtown,C003,Loyal,P103,Beverages,Mango Juice 1L,2,3.25,Credit Card,0.00,In-store
+TXN-2025-0176,BILL-0125,2025-02-11,S2,Suburban,C017,Regular,P316,Personal Care,Face Cream 50ml,1,7.50,Cash,0.00,In-store
+TXN-2025-0177,BILL-0126,2025-02-11,S3,Uptown,C044,New,P210,Snacks,Crackers Pack,4,1.80,Debit Card,0.00,In-store
+TXN-2025-0178,BILL-0127,2025-02-12,S1,Downtown,C009,Loyal,P607,Bakery,Baguette,3,2.00,Credit Card,0.00,In-store
+TXN-2025-0179,BILL-0127,2025-02-12,S1,Downtown,C009,Loyal,P601,Bakery,Whole Wheat Bread,2,2.25,Credit Card,0.00,In-store
+TXN-2025-0180,BILL-0128,2025-02-12,S2,Suburban,C020,Regular,P401,Dairy,Milk 1L,4,1.80,UPI,0.00,Online
+TXN-2025-0181,BILL-0129,2025-02-12,S3,Uptown,C033,Loyal,P521,Grocery,Maple Syrup 250ml,1,6.50,Cash,0.00,In-store
+TXN-2025-0182,BILL-0130,2025-02-13,S1,Downtown,C006,Loyal,P211,Snacks,Cheese Puffs,5,1.50,Credit Card,0.00,In-store
+TXN-2025-0183,BILL-0130,2025-02-13,S1,Downtown,C006,Loyal,P215,Snacks,Tortilla Chips,3,2.20,Credit Card,0.00,In-store
+TXN-2025-0184,BILL-0131,2025-02-13,S2,Suburban,C026,Regular,P308,Personal Care,Razor Pack,1,5.00,Cash,0.00,In-store
+TXN-2025-0185,BILL-0132,2025-02-13,S3,Uptown,C035,Loyal,P108,Beverages,Coconut Water 1L,3,3.00,Debit Card,0.00,In-store
+TXN-2025-0186,BILL-0133,2025-02-14,S1,Downtown,C010,Loyal,P613,Bakery,Chocolate Cake Slice,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0187,BILL-0133,2025-02-14,S1,Downtown,C010,Loyal,P606,Bakery,Cake Slice,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0188,BILL-0134,2025-02-14,S2,Suburban,C029,Regular,P207,Snacks,Candy Bar 3-Pack,5,2.00,Cash,0.00,In-store
+TXN-2025-0189,BILL-0135,2025-02-14,S3,Uptown,C038,Loyal,P615,Bakery,Cheesecake Slice,2,4.50,UPI,0.00,In-store
+TXN-2025-0190,BILL-0136,2025-02-15,S1,Downtown,C004,Loyal,P507,Grocery,Honey 500g,1,6.00,Credit Card,0.00,In-store
+TXN-2025-0191,BILL-0136,2025-02-15,S1,Downtown,C004,Loyal,P510,Grocery,Jam 350g,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0192,BILL-0137,2025-02-15,S2,Suburban,C014,Regular,P413,Dairy,Feta Cheese 200g,1,4.50,Cash,0.00,In-store
+TXN-2025-0193,BILL-0138,2025-02-15,S3,Uptown,C041,New,P312,Personal Care,Hair Gel 150ml,2,3.00,Debit Card,0.00,In-store
+TXN-2025-0194,BILL-0139,2025-02-16,S1,Downtown,C007,Loyal,P104,Beverages,Green Tea Pack,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0195,BILL-0139,2025-02-16,S1,Downtown,C007,Loyal,P116,Beverages,Hot Chocolate Mix,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0196,BILL-0140,2025-02-16,S2,Suburban,C023,Regular,P202,Snacks,Nachos Pack,3,2.50,UPI,0.00,Online
+TXN-2025-0197,BILL-0141,2025-02-16,S3,Uptown,C046,New,P604,Bakery,Bagels 6-Pack,2,3.50,Cash,0.00,In-store
+TXN-2025-0198,BILL-0142,2025-02-17,S1,Downtown,C011,Loyal,P402,Dairy,Cheese 200g,3,3.20,Credit Card,0.00,In-store
+TXN-2025-0199,BILL-0142,2025-02-17,S1,Downtown,C011,Loyal,P404,Dairy,Butter 250g,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0200,BILL-0143,2025-02-17,S2,Suburban,C019,Regular,P513,Grocery,Mayonnaise 300g,2,3.50,Cash,0.00,In-store
+TXN-2025-0201,BILL-0144,2025-02-17,S3,Uptown,C036,Loyal,P317,Personal Care,Hand Sanitizer 250ml,3,2.80,Debit Card,0.00,In-store
+TXN-2025-0202,BILL-0145,2025-02-18,S1,Downtown,C001,Loyal,P603,Bakery,Muffins 6-Pack,2,5.00,Credit Card,0.00,In-store
+TXN-2025-0203,BILL-0145,2025-02-18,S1,Downtown,C001,Loyal,P605,Bakery,Donuts 6-Pack,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0204,BILL-0146,2025-02-18,S2,Suburban,C021,Regular,P318,Personal Care,Shaving Cream 200ml,1,3.50,Cash,0.00,In-store
+TXN-2025-0205,BILL-0147,2025-02-18,S3,Uptown,C039,Loyal,P214,Snacks,Veggie Chips,3,2.80,UPI,0.00,In-store
+TXN-2025-0206,BILL-0148,2025-02-19,S1,Downtown,C008,Loyal,P514,Grocery,Cooking Oil 1L,2,5.00,Credit Card,0.00,In-store
+TXN-2025-0207,BILL-0148,2025-02-19,S1,Downtown,C008,Loyal,P511,Grocery,Lentils 1kg,3,2.50,Credit Card,0.00,In-store
+TXN-2025-0208,BILL-0149,2025-02-19,S2,Suburban,C028,Regular,P109,Beverages,Energy Drink 4-Pack,1,6.00,Cash,0.00,In-store
+TXN-2025-0209,BILL-0150,2025-02-19,S3,Uptown,C032,Loyal,P409,Dairy,Whipped Cream 250ml,2,3.80,Debit Card,0.00,In-store
+TXN-2025-0210,BILL-0151,2025-02-20,S1,Downtown,C005,Loyal,P216,Snacks,Salsa Dip 300g,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0211,BILL-0151,2025-02-20,S1,Downtown,C005,Loyal,P217,Snacks,Seaweed Snacks,3,1.80,Credit Card,0.00,In-store
+TXN-2025-0212,BILL-0152,2025-02-20,S2,Suburban,C016,Regular,P614,Bakery,Fruit Tart,2,4.00,UPI,0.00,Online
+TXN-2025-0213,BILL-0153,2025-02-20,S3,Uptown,C037,Loyal,P301,Personal Care,Shampoo 250ml,2,4.00,Cash,0.00,In-store
+TXN-2025-0214,BILL-0154,2025-02-21,S1,Downtown,C002,Loyal,P113,Beverages,Almond Milk 1L,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0215,BILL-0154,2025-02-21,S1,Downtown,C002,Loyal,P112,Beverages,Fruit Punch 2L,1,4.00,Credit Card,0.00,In-store
+TXN-2025-0216,BILL-0155,2025-02-21,S2,Suburban,C025,Regular,P405,Dairy,Ice Cream 1L,1,5.50,Cash,0.00,In-store
+TXN-2025-0217,BILL-0156,2025-02-21,S3,Uptown,C040,Loyal,P205,Snacks,Pretzels Pack,4,1.80,Debit Card,0.00,In-store
+TXN-2025-0218,BILL-0157,2025-02-22,S1,Downtown,C012,Loyal,P610,Bakery,Garlic Bread,3,2.50,Credit Card,0.00,In-store
+TXN-2025-0219,BILL-0157,S1,Downtown,2025-02-22,C012,Loyal,P608,Bakery,Cinnamon Rolls 4-Pack,1,5.00,Credit Card,0.00,In-store
+TXN-2025-0220,BILL-0158,2025-02-22,S2,Suburban,C018,Regular,P302,Personal Care,Body Lotion 200ml,1,5.50,Cash,0.00,In-store
+TXN-2025-0221,BILL-0159,2025-02-22,S3,Uptown,C044,New,P106,Beverages,Mineral Water 6-Pack,3,4.00,UPI,0.00,In-store
+TXN-2025-0222,BILL-0160,2025-02-23,S1,Downtown,C003,Loyal,P406,Dairy,Cream Cheese 200g,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0223,BILL-0160,2025-02-23,S1,Downtown,C003,Loyal,P407,Dairy,Paneer 250g,2,3.80,Credit Card,0.00,In-store
+TXN-2025-0224,BILL-0161,2025-02-23,S2,Suburban,C027,Regular,P208,Snacks,Trail Mix 300g,2,5.00,Cash,0.00,In-store
+TXN-2025-0225,BILL-0162,2025-02-23,S3,Uptown,C033,Loyal,P517,Grocery,Quinoa 500g,1,7.00,Debit Card,0.00,In-store
+TXN-2025-0226,BILL-0163,2025-02-24,S1,Downtown,C009,Loyal,P314,Personal Care,Body Wash 300ml,1,4.80,Credit Card,0.00,In-store
+TXN-2025-0227,BILL-0163,2025-02-24,S1,Downtown,C009,Loyal,P310,Personal Care,Hair Oil 200ml,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0228,BILL-0164,2025-02-24,S2,Suburban,C022,Regular,P501,Grocery,Rice 5kg,1,8.50,UPI,0.00,Online
+TXN-2025-0229,BILL-0165,2025-02-24,S3,Uptown,C035,Loyal,P602,Bakery,Croissant 4-Pack,2,4.00,Cash,0.00,In-store
+TXN-2025-0230,BILL-0166,2025-02-25,S1,Downtown,C006,Loyal,P203,Snacks,Cookies Pack,5,1.50,Credit Card,0.00,In-store
+TXN-2025-0231,BILL-0166,2025-02-25,S1,Downtown,C006,Loyal,P201,Snacks,Potato Chips,4,1.20,Credit Card,0.00,In-store
+TXN-2025-0232,BILL-0167,2025-02-25,S2,Suburban,C024,Regular,P410,Dairy,Greek Yogurt 400g,2,3.50,Cash,0.00,In-store
+TXN-2025-0233,BILL-0168,2025-02-25,S3,Uptown,C038,Loyal,P110,Beverages,Iced Tea 1L,3,2.50,Debit Card,0.00,In-store
+TXN-2025-0234,BILL-0169,2025-02-26,S1,Downtown,C010,Loyal,P505,Grocery,Olive Oil 500ml,1,7.50,Credit Card,0.00,In-store
+TXN-2025-0235,BILL-0169,2025-02-26,S1,Downtown,C010,Loyal,P506,Grocery,Pasta 500g,3,2.00,Credit Card,0.00,In-store
+TXN-2025-0236,BILL-0170,2025-02-26,S2,Suburban,C017,Regular,P609,Bakery,Sourdough Bread,2,3.50,Cash,0.00,In-store
+TXN-2025-0237,BILL-0171,2025-02-26,S3,Uptown,C041,New,P313,Personal Care,Lip Balm 3-Pack,2,3.20,UPI,0.00,In-store
+TXN-2025-0238,BILL-0172,2025-02-27,S1,Downtown,C004,Loyal,P401,Dairy,Milk 1L,4,1.80,Credit Card,0.00,In-store
+TXN-2025-0239,BILL-0172,2025-02-27,S1,Downtown,C004,Loyal,P403,Dairy,Yogurt 500g,2,2.00,Credit Card,0.00,In-store
+TXN-2025-0240,BILL-0173,2025-02-27,S2,Suburban,C020,Regular,P212,Snacks,Rice Cakes Pack,3,2.50,Cash,0.00,In-store
+TXN-2025-0241,BILL-0174,2025-02-27,S3,Uptown,C046,New,P518,Grocery,Brown Rice 2kg,1,5.50,Debit Card,0.00,In-store
+TXN-2025-0242,BILL-0175,2025-02-28,S1,Downtown,C007,Loyal,P611,Bakery,Banana Bread,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0243,BILL-0175,2025-02-28,S1,Downtown,C007,Loyal,P612,Bakery,Brownies 4-Pack,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0244,BILL-0176,2025-02-28,S2,Suburban,C026,Regular,P309,Personal Care,Sunscreen 100ml,1,8.00,UPI,0.00,Online
+TXN-2025-0245,BILL-0177,2025-02-28,S3,Uptown,C034,Loyal,P115,Beverages,Smoothie Mix,2,4.00,Cash,0.00,In-store
+TXN-2025-0246,BILL-0178,2025-03-01,S1,Downtown,C011,Loyal,P502,Grocery,Wheat Flour 2kg,3,3.00,Credit Card,0.00,In-store
+TXN-2025-0247,BILL-0178,2025-03-01,S1,Downtown,C011,Loyal,P503,Grocery,Sugar 1kg,2,1.50,Credit Card,0.00,In-store
+TXN-2025-0248,BILL-0178,2025-03-01,S1,Downtown,C011,Loyal,P504,Grocery,Salt 1kg,1,0.80,Credit Card,0.00,In-store
+TXN-2025-0249,BILL-0179,2025-03-01,S2,Suburban,C029,Regular,P211,Snacks,Cheese Puffs,5,1.50,Cash,0.00,In-store
+TXN-2025-0250,BILL-0180,2025-03-01,S3,Uptown,C036,Loyal,P607,Bakery,Baguette,3,2.00,Debit Card,0.00,In-store
+TXN-2025-0251,BILL-0181,2025-03-02,S1,Downtown,C001,Loyal,P315,Personal Care,Moisturizer 100ml,1,6.00,Credit Card,0.00,In-store
+TXN-2025-0252,BILL-0181,2025-03-02,S1,Downtown,C001,Loyal,P316,Personal Care,Face Cream 50ml,1,7.50,Credit Card,0.00,In-store
+TXN-2025-0253,BILL-0182,2025-03-02,S2,Suburban,C014,Regular,P408,Dairy,Cottage Cheese 250g,2,4.20,Cash,0.00,In-store
+TXN-2025-0254,BILL-0183,2025-03-02,S3,Uptown,C039,Loyal,P101,Beverages,Orange Juice 1L,3,3.50,UPI,0.00,In-store
+TXN-2025-0255,BILL-0184,2025-03-03,S1,Downtown,C008,Loyal,P204,Snacks,Mixed Nuts 250g,2,6.50,Credit Card,0.00,In-store
+TXN-2025-0256,BILL-0184,2025-03-03,S1,Downtown,C008,Loyal,P213,Snacks,Dried Fruits 200g,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0257,BILL-0185,2025-03-03,S2,Suburban,C023,Regular,P603,Bakery,Muffins 6-Pack,2,5.00,Cash,0.00,In-store
+TXN-2025-0258,BILL-0186,2025-03-03,S3,Uptown,C032,Loyal,P519,Grocery,Black Beans 500g,3,2.00,Debit Card,0.00,In-store
+TXN-2025-0259,BILL-0187,2025-03-04,S1,Downtown,C005,Loyal,P109,Beverages,Energy Drink 4-Pack,2,6.00,Credit Card,0.00,In-store
+TXN-2025-0260,BILL-0187,2025-03-04,S1,Downtown,C005,Loyal,P105,Beverages,Cola 2L,2,2.50,Credit Card,0.00,In-store
+TXN-2025-0261,BILL-0188,2025-03-04,S2,Suburban,C019,Regular,P412,Dairy,Sour Cream 200g,2,2.50,UPI,0.00,Online
+TXN-2025-0262,BILL-0189,2025-03-04,S3,Uptown,C037,Loyal,P304,Personal Care,Toothpaste 150g,3,2.20,Cash,0.00,In-store
+TXN-2025-0263,BILL-0190,2025-03-05,S1,Downtown,C002,Loyal,P614,Bakery,Fruit Tart,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0264,BILL-0190,2025-03-05,S1,Downtown,C002,Loyal,P615,Bakery,Cheesecake Slice,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0265,BILL-0191,2025-03-05,S2,Suburban,C021,Regular,P206,Snacks,Popcorn Pack,5,1.25,Cash,0.00,In-store
+TXN-2025-0266,BILL-0192,2025-03-05,S3,Uptown,C040,Loyal,P520,Grocery,Chickpeas 500g,3,2.20,Debit Card,0.00,In-store
+TXN-2025-0267,BILL-0193,2025-03-06,S1,Downtown,C012,Loyal,P414,Dairy,Half and Half 500ml,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0268,BILL-0193,2025-03-06,S1,Downtown,C012,Loyal,P411,Dairy,Chocolate Milk 1L,2,2.80,Credit Card,0.00,In-store
+TXN-2025-0269,BILL-0194,2025-03-06,S2,Suburban,C028,Regular,P307,Personal Care,Deodorant 150ml,2,3.50,Cash,0.00,In-store
+TXN-2025-0270,BILL-0195,2025-03-06,S3,Uptown,C044,New,P102,Beverages,Apple Juice 1L,3,3.75,UPI,0.00,In-store
+TXN-2025-0271,BILL-0196,2025-03-07,S1,Downtown,C003,Loyal,P508,Grocery,Cereal Box 500g,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0272,BILL-0196,2025-03-07,S1,Downtown,C003,Loyal,P509,Grocery,Peanut Butter 350g,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0273,BILL-0197,2025-03-07,S2,Suburban,C016,Regular,P604,Bakery,Bagels 6-Pack,2,3.50,Cash,0.00,In-store
+TXN-2025-0274,BILL-0198,2025-03-07,S3,Uptown,C033,Loyal,P217,Snacks,Seaweed Snacks,4,1.80,Debit Card,0.00,In-store
+TXN-2025-0275,BILL-0199,2025-03-08,S1,Downtown,C009,Loyal,P301,Personal Care,Shampoo 250ml,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0276,BILL-0199,2025-03-08,S1,Downtown,C009,Loyal,P311,Personal Care,Conditioner 250ml,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0277,BILL-0200,2025-03-08,S2,Suburban,C025,Regular,P402,Dairy,Cheese 200g,3,3.20,UPI,0.00,Online
+TXN-2025-0278,BILL-0201,2025-03-08,S3,Uptown,C035,Loyal,P514,Grocery,Cooking Oil 1L,1,5.00,Cash,0.00,In-store
+TXN-2025-0279,BILL-0202,2025-03-09,S1,Downtown,C006,Loyal,P107,Beverages,Lemonade 1L,4,2.80,Credit Card,0.00,In-store
+TXN-2025-0280,BILL-0202,2025-03-09,S1,Downtown,C006,Loyal,P108,Beverages,Coconut Water 1L,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0281,BILL-0203,2025-03-09,S2,Suburban,C018,Regular,P215,Snacks,Tortilla Chips,3,2.20,Cash,0.00,In-store
+TXN-2025-0282,BILL-0204,2025-03-09,S3,Uptown,C038,Loyal,P605,Bakery,Donuts 6-Pack,2,4.50,Debit Card,0.00,In-store
+TXN-2025-0283,BILL-0205,2025-03-10,S1,Downtown,C010,Loyal,P510,Grocery,Jam 350g,3,3.00,Credit Card,0.00,In-store
+TXN-2025-0284,BILL-0205,2025-03-10,S1,Downtown,C010,Loyal,P507,Grocery,Honey 500g,1,6.00,Credit Card,0.00,In-store
+TXN-2025-0285,BILL-0206,2025-03-10,S2,Suburban,C027,Regular,P318,Personal Care,Shaving Cream 200ml,2,3.50,Cash,0.00,In-store
+TXN-2025-0286,BILL-0207,2025-03-10,S3,Uptown,C041,New,P111,Beverages,Sparkling Water 1L,4,2.00,UPI,0.00,In-store
+TXN-2025-0287,BILL-0208,2025-03-11,S1,Downtown,C004,Loyal,P209,Snacks,Granola Bars 6-Pack,3,4.00,Credit Card,0.00,In-store
+TXN-2025-0288,BILL-0208,2025-03-11,S1,Downtown,C004,Loyal,P218,Snacks,Protein Bars 4-Pack,2,6.00,Credit Card,0.00,In-store
+TXN-2025-0289,BILL-0209,2025-03-11,S2,Suburban,C022,Regular,P401,Dairy,Milk 1L,4,1.80,Cash,0.00,In-store
+TXN-2025-0290,BILL-0210,2025-03-11,S3,Uptown,C046,New,P610,Bakery,Garlic Bread,3,2.50,Debit Card,0.00,In-store
+TXN-2025-0291,BILL-0211,2025-03-12,S1,Downtown,C007,Loyal,P306,Personal Care,Hand Cream 100ml,2,4.20,Credit Card,0.00,In-store
+TXN-2025-0292,BILL-0211,2025-03-12,S1,Downtown,C007,Loyal,P313,Personal Care,Lip Balm 3-Pack,2,3.20,Credit Card,0.00,In-store
+TXN-2025-0293,BILL-0212,2025-03-12,S2,Suburban,C024,Regular,P512,Grocery,Tomato Sauce 500g,3,2.20,UPI,0.00,Online
+TXN-2025-0294,BILL-0213,2025-03-12,S3,Uptown,C034,Loyal,P202,Snacks,Nachos Pack,4,2.50,Cash,0.00,In-store
+TXN-2025-0295,BILL-0214,2025-03-13,S1,Downtown,C011,Loyal,P601,Bakery,Whole Wheat Bread,3,2.25,Credit Card,0.00,In-store
+TXN-2025-0296,BILL-0214,2025-03-13,S1,Downtown,C011,Loyal,P602,Bakery,Croissant 4-Pack,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0297,BILL-0215,2025-03-13,S2,Suburban,C017,Regular,P404,Dairy,Butter 250g,2,3.50,Cash,0.00,In-store
+TXN-2025-0298,BILL-0216,2025-03-13,S3,Uptown,C036,Loyal,P116,Beverages,Hot Chocolate Mix,2,3.50,Debit Card,0.00,In-store
+TXN-2025-0299,BILL-0217,2025-03-14,S1,Downtown,C001,Loyal,P515,Grocery,Spaghetti 500g,4,1.80,Credit Card,0.00,In-store
+TXN-2025-0300,BILL-0217,2025-03-14,S1,Downtown,C001,Loyal,P516,Grocery,Tomato Paste 200g,3,1.50,Credit Card,0.00,In-store
+TXN-2025-0301,BILL-0218,2025-03-14,S2,Suburban,C020,Regular,P308,Personal Care,Razor Pack,1,5.00,Cash,0.00,In-store
+TXN-2025-0302,BILL-0219,2025-03-14,S3,Uptown,C039,Loyal,P210,Snacks,Crackers Pack,5,1.80,UPI,0.00,In-store
+TXN-2025-0303,BILL-0220,2025-03-15,S1,Downtown,C008,Loyal,P405,Dairy,Ice Cream 1L,2,5.50,Credit Card,0.00,In-store
+TXN-2025-0304,BILL-0220,2025-03-15,S1,Downtown,C008,Loyal,P403,Dairy,Yogurt 500g,3,2.00,Credit Card,0.00,In-store
+TXN-2025-0305,BILL-0221,2025-03-15,S2,Suburban,C026,Regular,P103,Beverages,Mango Juice 1L,3,3.25,Cash,0.00,In-store
+TXN-2025-0306,BILL-0222,2025-03-15,S3,Uptown,C032,Loyal,P611,Bakery,Banana Bread,2,4.00,Debit Card,0.00,In-store
+TXN-2025-0307,BILL-0223,2025-03-16,S1,Downtown,C005,Loyal,P317,Personal Care,Hand Sanitizer 250ml,3,2.80,Credit Card,0.00,In-store
+TXN-2025-0308,BILL-0223,2025-03-16,S1,Downtown,C005,Loyal,P305,Personal Care,Soap Bar 3-Pack,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0309,BILL-0224,2025-03-16,S2,Suburban,C029,Regular,P406,Dairy,Cream Cheese 200g,2,4.00,UPI,0.00,Online
+TXN-2025-0310,BILL-0225,2025-03-16,S3,Uptown,C037,Loyal,P521,Grocery,Maple Syrup 250ml,1,6.50,Cash,0.00,In-store
+TXN-2025-0311,BILL-0226,2025-03-17,S1,Downtown,C002,Loyal,P113,Beverages,Almond Milk 1L,3,4.50,Credit Card,0.00,In-store
+TXN-2025-0312,BILL-0226,2025-03-17,S1,Downtown,C002,Loyal,P117,Beverages,Ginger Ale 1L,2,2.20,Credit Card,0.00,In-store
+TXN-2025-0313,BILL-0227,2025-03-17,S2,Suburban,C014,Regular,P608,Bakery,Cinnamon Rolls 4-Pack,2,5.00,Cash,0.00,In-store
+TXN-2025-0314,BILL-0228,2025-03-17,S3,Uptown,C040,Loyal,P214,Snacks,Veggie Chips,4,2.80,Debit Card,0.00,In-store
+TXN-2025-0315,BILL-0229,2025-03-18,S1,Downtown,C012,Loyal,P407,Dairy,Paneer 250g,3,3.80,Credit Card,0.00,In-store
+TXN-2025-0316,BILL-0229,2025-03-18,S1,Downtown,C012,Loyal,P410,Dairy,Greek Yogurt 400g,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0317,BILL-0230,2025-03-18,S2,Suburban,C023,Regular,P302,Personal Care,Body Lotion 200ml,1,5.50,Cash,0.00,In-store
+TXN-2025-0318,BILL-0231,2025-03-18,S3,Uptown,C044,New,P104,Beverages,Green Tea Pack,2,4.50,UPI,0.00,In-store
+TXN-2025-0319,BILL-0232,2025-03-19,S1,Downtown,C003,Loyal,P606,Bakery,Cake Slice,3,3.00,Credit Card,0.00,In-store
+TXN-2025-0320,BILL-0232,2025-03-19,S1,Downtown,C003,Loyal,P613,Bakery,Chocolate Cake Slice,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0321,BILL-0233,2025-03-19,S2,Suburban,C019,Regular,P501,Grocery,Rice 5kg,1,8.50,Cash,0.00,In-store
+TXN-2025-0322,BILL-0234,2025-03-19,S3,Uptown,C033,Loyal,P205,Snacks,Pretzels Pack,5,1.80,Debit Card,0.00,In-store
+TXN-2025-0323,BILL-0235,2025-03-20,S1,Downtown,C009,Loyal,P413,Dairy,Feta Cheese 200g,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0324,BILL-0235,2025-03-20,S1,Downtown,C009,Loyal,P408,Dairy,Cottage Cheese 250g,1,4.20,Credit Card,0.00,In-store
+TXN-2025-0325,BILL-0236,2025-03-20,S2,Suburban,C021,Regular,P216,Snacks,Salsa Dip 300g,2,3.50,UPI,0.00,Online
+TXN-2025-0326,BILL-0237,2025-03-20,S3,Uptown,C035,Loyal,P312,Personal Care,Hair Gel 150ml,2,3.00,Cash,0.00,In-store
+TXN-2025-0327,BILL-0238,2025-03-21,S1,Downtown,C006,Loyal,P517,Grocery,Quinoa 500g,1,7.00,Credit Card,0.00,In-store
+TXN-2025-0328,BILL-0238,2025-03-21,S1,Downtown,C006,Loyal,P518,Grocery,Brown Rice 2kg,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0329,BILL-0239,2025-03-21,S2,Suburban,C028,Regular,P609,Bakery,Sourdough Bread,2,3.50,Cash,0.00,In-store
+TXN-2025-0330,BILL-0240,2025-03-21,S3,Uptown,C038,Loyal,P106,Beverages,Mineral Water 6-Pack,3,4.00,Debit Card,0.00,In-store
+TXN-2025-0331,BILL-0241,2025-03-22,S1,Downtown,C010,Loyal,P203,Snacks,Cookies Pack,5,1.50,Credit Card,0.00,In-store
+TXN-2025-0332,BILL-0241,2025-03-22,S1,Downtown,C010,Loyal,P201,Snacks,Potato Chips,4,1.20,Credit Card,0.00,In-store
+TXN-2025-0333,BILL-0242,2025-03-22,S2,Suburban,C016,Regular,P310,Personal Care,Hair Oil 200ml,1,5.50,Cash,0.00,In-store
+TXN-2025-0334,BILL-0243,2025-03-22,S3,Uptown,C041,New,P409,Dairy,Whipped Cream 250ml,2,3.80,UPI,0.00,In-store
+TXN-2025-0335,BILL-0244,2025-03-23,S1,Downtown,C004,Loyal,P112,Beverages,Fruit Punch 2L,2,4.00,Credit Card,0.00,In-store
+TXN-2025-0336,BILL-0244,2025-03-23,S1,Downtown,C004,Loyal,P110,Beverages,Iced Tea 1L,3,2.50,Credit Card,0.00,In-store
+TXN-2025-0337,BILL-0245,2025-03-23,S2,Suburban,C025,Regular,P607,Bakery,Baguette,3,2.00,Cash,0.00,In-store
+TXN-2025-0338,BILL-0246,2025-03-23,S3,Uptown,C046,New,P519,Grocery,Black Beans 500g,3,2.00,Debit Card,0.00,In-store
+TXN-2025-0339,BILL-0247,2025-03-24,S1,Downtown,C007,Loyal,P303,Personal Care,Face Wash 100ml,2,3.80,Credit Card,0.00,In-store
+TXN-2025-0340,BILL-0247,2025-03-24,S1,Downtown,C007,Loyal,P314,Personal Care,Body Wash 300ml,1,4.80,Credit Card,0.00,In-store
+TXN-2025-0341,BILL-0248,2025-03-24,S2,Suburban,C018,Regular,P402,Dairy,Cheese 200g,2,3.20,UPI,0.00,Online
+TXN-2025-0342,BILL-0249,2025-03-24,S3,Uptown,C034,Loyal,P207,Snacks,Candy Bar 3-Pack,4,2.00,Cash,0.00,In-store
+TXN-2025-0343,BILL-0250,2025-03-25,S1,Downtown,C011,Loyal,P612,Bakery,Brownies 4-Pack,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0344,BILL-0250,2025-03-25,S1,Downtown,C011,Loyal,P603,Bakery,Muffins 6-Pack,1,5.00,Credit Card,0.00,In-store
+TXN-2025-0345,BILL-0251,2025-03-25,S2,Suburban,C027,Regular,P115,Beverages,Smoothie Mix,2,4.00,Cash,0.00,In-store
+TXN-2025-0346,BILL-0252,2025-03-25,S3,Uptown,C036,Loyal,P520,Grocery,Chickpeas 500g,3,2.20,Debit Card,0.00,In-store
+TXN-2025-0347,BILL-0253,2025-03-26,S1,Downtown,C001,Loyal,P404,Dairy,Butter 250g,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0348,BILL-0253,2025-03-26,S1,Downtown,C001,Loyal,P401,Dairy,Milk 1L,4,1.80,Credit Card,0.00,In-store
+TXN-2025-0349,BILL-0254,2025-03-26,S2,Suburban,C022,Regular,P211,Snacks,Cheese Puffs,5,1.50,Cash,0.00,In-store
+TXN-2025-0350,BILL-0255,2025-03-26,S3,Uptown,C039,Loyal,P316,Personal Care,Face Cream 50ml,1,7.50,UPI,0.00,In-store
+TXN-2025-0351,BILL-0256,2025-03-27,S1,Downtown,C008,Loyal,P505,Grocery,Olive Oil 500ml,1,7.50,Credit Card,0.00,In-store
+TXN-2025-0352,BILL-0256,2025-03-27,S1,Downtown,C008,Loyal,P514,Grocery,Cooking Oil 1L,1,5.00,Credit Card,0.00,In-store
+TXN-2025-0353,BILL-0257,2025-03-27,S2,Suburban,C024,Regular,P604,Bakery,Bagels 6-Pack,2,3.50,Cash,0.00,In-store
+TXN-2025-0354,BILL-0258,2025-03-27,S3,Uptown,C032,Loyal,P102,Beverages,Apple Juice 1L,3,3.75,Debit Card,0.00,In-store
+TXN-2025-0355,BILL-0259,2025-03-28,S1,Downtown,C005,Loyal,P208,Snacks,Trail Mix 300g,2,5.00,Credit Card,0.00,In-store
+TXN-2025-0356,BILL-0259,2025-03-28,S1,Downtown,C005,Loyal,P213,Snacks,Dried Fruits 200g,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0357,BILL-0260,2025-03-28,S2,Suburban,C017,Regular,P412,Dairy,Sour Cream 200g,2,2.50,UPI,0.00,Online
+TXN-2025-0358,BILL-0261,2025-03-28,S3,Uptown,C037,Loyal,P605,Bakery,Donuts 6-Pack,2,4.50,Cash,0.00,In-store
+TXN-2025-0359,BILL-0262,2025-03-29,S1,Downtown,C002,Loyal,P309,Personal Care,Sunscreen 100ml,1,8.00,Credit Card,0.00,In-store
+TXN-2025-0360,BILL-0262,2025-03-29,S1,Downtown,C002,Loyal,P307,Personal Care,Deodorant 150ml,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0361,BILL-0263,2025-03-29,S2,Suburban,C020,Regular,P101,Beverages,Orange Juice 1L,3,3.50,Cash,0.00,In-store
+TXN-2025-0362,BILL-0264,2025-03-29,S3,Uptown,C040,Loyal,P513,Grocery,Mayonnaise 300g,2,3.50,Debit Card,0.00,In-store
+TXN-2025-0363,BILL-0265,2025-03-30,S1,Downtown,C012,Loyal,P411,Dairy,Chocolate Milk 1L,3,2.80,Credit Card,0.00,In-store
+TXN-2025-0364,BILL-0265,2025-03-30,S1,Downtown,C012,Loyal,P414,Dairy,Half and Half 500ml,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0365,BILL-0266,2025-03-30,S2,Suburban,C026,Regular,P610,Bakery,Garlic Bread,3,2.50,Cash,0.00,In-store
+TXN-2025-0366,BILL-0267,2025-03-30,S3,Uptown,C044,New,P212,Snacks,Rice Cakes Pack,3,2.50,UPI,0.00,In-store
+TXN-2025-0367,BILL-0268,2025-03-31,S1,Downtown,C003,Loyal,P114,Beverages,Herbal Tea Box,2,5.00,Credit Card,0.00,In-store
+TXN-2025-0368,BILL-0268,2025-03-31,S1,Downtown,C003,Loyal,P104,Beverages,Green Tea Pack,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0369,BILL-0269,2025-03-31,S2,Suburban,C029,Regular,P301,Personal Care,Shampoo 250ml,2,4.00,Cash,0.00,In-store
+TXN-2025-0370,BILL-0270,2025-03-31,S3,Uptown,C033,Loyal,P614,Bakery,Fruit Tart,2,4.00,Debit Card,0.00,In-store
+TXN-2025-0371,BILL-0271,2025-04-01,S1,Downtown,C009,Loyal,P502,Grocery,Wheat Flour 2kg,3,3.00,Credit Card,0.00,In-store
+TXN-2025-0372,BILL-0271,2025-04-01,S1,Downtown,C009,Loyal,P503,Grocery,Sugar 1kg,3,1.50,Credit Card,0.00,In-store
+TXN-2025-0373,BILL-0271,2025-04-01,S1,Downtown,C009,Loyal,P511,Grocery,Lentils 1kg,2,2.50,Credit Card,0.00,In-store
+TXN-2025-0374,BILL-0272,2025-04-01,S2,Suburban,C014,Regular,P406,Dairy,Cream Cheese 200g,2,4.00,UPI,0.00,Online
+TXN-2025-0375,BILL-0273,2025-04-01,S3,Uptown,C035,Loyal,P107,Beverages,Lemonade 1L,4,2.80,Cash,0.00,In-store
+TXN-2025-0376,BILL-0274,2025-04-02,S1,Downtown,C006,Loyal,P615,Bakery,Cheesecake Slice,2,4.50,Credit Card,0.00,In-store
+TXN-2025-0377,BILL-0274,2025-04-02,S1,Downtown,C006,Loyal,P606,Bakery,Cake Slice,2,3.00,Credit Card,0.00,In-store
+TXN-2025-0378,BILL-0275,2025-04-02,S2,Suburban,C023,Regular,P206,Snacks,Popcorn Pack,5,1.25,Cash,0.00,In-store
+TXN-2025-0379,BILL-0276,2025-04-02,S3,Uptown,C038,Loyal,P318,Personal Care,Shaving Cream 200ml,2,3.50,Debit Card,0.00,In-store
+TXN-2025-0380,BILL-0277,2025-04-03,S1,Downtown,C010,Loyal,P109,Beverages,Energy Drink 4-Pack,2,6.00,Credit Card,0.00,In-store
+TXN-2025-0381,BILL-0277,2025-04-03,S1,Downtown,C010,Loyal,P105,Beverages,Cola 2L,3,2.50,Credit Card,0.00,In-store
+TXN-2025-0382,BILL-0278,2025-04-03,S2,Suburban,C019,Regular,P407,Dairy,Paneer 250g,2,3.80,Cash,0.00,In-store
+TXN-2025-0383,BILL-0279,2025-04-03,S3,Uptown,C041,New,P608,Bakery,Cinnamon Rolls 4-Pack,2,5.00,UPI,0.00,In-store
+TXN-2025-0384,BILL-0280,2025-04-04,S1,Downtown,C004,Loyal,P204,Snacks,Mixed Nuts 250g,3,6.50,Credit Card,0.00,In-store
+TXN-2025-0385,BILL-0280,2025-04-04,S1,Downtown,C004,Loyal,P218,Snacks,Protein Bars 4-Pack,2,6.00,Credit Card,0.00,In-store
+TXN-2025-0386,BILL-0281,2025-04-04,S2,Suburban,C021,Regular,P315,Personal Care,Moisturizer 100ml,1,6.00,Cash,0.00,In-store
+TXN-2025-0387,BILL-0282,2025-04-04,S3,Uptown,C046,New,P516,Grocery,Tomato Paste 200g,3,1.50,Debit Card,0.00,In-store
+TXN-2025-0388,BILL-0283,2025-04-05,S1,Downtown,C007,Loyal,P403,Dairy,Yogurt 500g,4,2.00,Credit Card,0.00,In-store
+TXN-2025-0389,BILL-0283,2025-04-05,S1,Downtown,C007,Loyal,P410,Dairy,Greek Yogurt 400g,2,3.50,Credit Card,0.00,In-store
+TXN-2025-0390,BILL-0284,2025-04-05,S2,Suburban,C028,Regular,P602,Bakery,Croissant 4-Pack,2,4.00,UPI,0.00,Online
+TXN-2025-0391,BILL-0285,2025-04-05,S3,Uptown,C034,Loyal,P111,Beverages,Sparkling Water 1L,4,2.00,Cash,0.00,In-store
+TXN-2025-0392,BILL-0286,2025-04-06,S1,Downtown,C011,Loyal,P310,Personal Care,Hair Oil 200ml,1,5.50,Credit Card,0.00,In-store
+TXN-2025-0393,BILL-0286,2025-04-06,S1,Downtown,C011,Loyal,P311,Personal Care,Conditioner 250ml,1,4.50,Credit Card,0.00,In-store
+TXN-2025-0394,BILL-0287,2025-04-06,S2,Suburban,C016,Regular,P215,Snacks,Tortilla Chips,4,2.20,Cash,0.00,In-store
+TXN-2025-0395,BILL-0288,2025-04-06,S3,Uptown,C036,Loyal,P501,Grocery,Rice 5kg,1,8.50,Debit Card,0.00,In-store
+TXN-2025-0396,BILL-0289,2025-04-07,S1,Downtown,C001,Loyal,P601,Bakery,Whole Wheat Bread,3,2.25,Credit Card,0.00,In-store
+TXN-2025-0397,BILL-0289,2025-04-07,S1,Downtown,C001,Loyal,P607,Bakery,Baguette,2,2.00,Credit Card,0.00,In-store
+TXN-2025-0398,BILL-0290,2025-04-07,S2,Suburban,C025,Regular,P405,Dairy,Ice Cream 1L,2,5.50,Cash,0.00,In-store
+TXN-2025-0399,BILL-0291,2025-04-07,S3,Uptown,C039,Loyal,P217,Snacks,Seaweed Snacks,5,1.80,UPI,0.00,In-store
+TXN-2025-0400,BILL-0292,2025-04-08,S1,Downtown,C008,Loyal,P508,Grocery,Cereal Box 500g,2,4.50,Credit Card,0.00,In-store
