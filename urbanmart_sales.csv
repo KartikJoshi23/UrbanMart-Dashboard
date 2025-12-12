@@ -217,7 +217,7 @@ TXN-2025-0215,BILL-0154,2025-02-21,S1,Downtown,C002,Loyal,P112,Beverages,Fruit P
 TXN-2025-0216,BILL-0155,2025-02-21,S2,Suburban,C025,Regular,P405,Dairy,Ice Cream 1L,1,5.50,Cash,0.00,In-store
 TXN-2025-0217,BILL-0156,2025-02-21,S3,Uptown,C040,Loyal,P205,Snacks,Pretzels Pack,4,1.80,Debit Card,0.00,In-store
 TXN-2025-0218,BILL-0157,2025-02-22,S1,Downtown,C012,Loyal,P610,Bakery,Garlic Bread,3,2.50,Credit Card,0.00,In-store
-TXN-2025-0219,BILL-0157,S1,Downtown,2025-02-22,C012,Loyal,P608,Bakery,Cinnamon Rolls 4-Pack,1,5.00,Credit Card,0.00,In-store
+TXN-2025-0219,BILL-0157,2025-02-22,S1,Downtown,C012,Loyal,P608,Bakery,Cinnamon Rolls 4-Pack,1,5.00,Credit Card,0.00,In-store
 TXN-2025-0220,BILL-0158,2025-02-22,S2,Suburban,C018,Regular,P302,Personal Care,Body Lotion 200ml,1,5.50,Cash,0.00,In-store
 TXN-2025-0221,BILL-0159,2025-02-22,S3,Uptown,C044,New,P106,Beverages,Mineral Water 6-Pack,3,4.00,UPI,0.00,In-store
 TXN-2025-0222,BILL-0160,2025-02-23,S1,Downtown,C003,Loyal,P406,Dairy,Cream Cheese 200g,2,4.00,Credit Card,0.00,In-store
