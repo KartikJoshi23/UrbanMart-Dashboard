@@ -1,31 +1,26 @@
-# 🛒 UrbanMart Sales Dashboard
+# UrbanMart Sales Dashboard
 
-An interactive sales analytics dashboard built with Python and Streamlit for analyzing retail sales data.
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+An interactive sales analytics dashboard built with Python and Streamlit.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Live Demo](#live-demo)
-- [Features](#features)
-- [Dataset Description](#dataset-description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Analysis Questions](#analysis-questions)
-  - [Question 1 Monthly Revenue Trend](#question-1-monthly-revenue-trend)
-  - [Question 2 Store Performance](#question-2-store-performance)
-  - [Question 3 Product Category Analysis](#question-3-product-category-analysis)
-  - [Question 4 Customer Segment Analysis](#question-4-customer-segment-analysis)
-  - [Question 5 Payment Method Distribution](#question-5-payment-method-distribution)
-- [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
-- [Author](#author)
+1. [Project Overview](#project-overview)
+2. [Live Demo](#live-demo)
+3. [Features](#features)
+4. [Dataset Description](#dataset-description)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Project Structure](#project-structure)
+8. [Analysis Questions](#analysis-questions)
+9. [Question 1](#question-1)
+10. [Question 2](#question-2)
+11. [Question 3](#question-3)
+12. [Question 4](#question-4)
+13. [Question 5](#question-5)
+14. [Technologies Used](#technologies-used)
+15. [Author](#author)
 
 ---
 
@@ -33,7 +28,7 @@ An interactive sales analytics dashboard built with Python and Streamlit for ana
 
 UrbanMart is a retail analytics project that demonstrates data analysis and visualization skills using Python. The project analyzes sales transactions from a fictional retail chain to derive actionable business insights.
 
-**Key Objectives:**
+Key Objectives:
 - Analyze sales trends over time
 - Compare store performance across locations
 - Identify top-performing products and categories
@@ -44,64 +39,61 @@ UrbanMart is a retail analytics project that demonstrates data analysis and visu
 
 ## Live Demo
 
-🔗 **[View Live Dashboard](https://urbanmart-dashboard.streamlit.app/)**
+View the live dashboard here: https://urbanmart-dashboard.streamlit.app/
 
-*(Replace with your actual Streamlit Cloud URL)*
+Replace with your actual Streamlit Cloud URL after deployment.
 
 ---
 
 ## Features
 
-- 📊 **Interactive KPI Cards** - Real-time metrics display
-- 📈 **Trend Analysis** - Monthly and daily revenue trends
-- 🏪 **Store Comparison** - Performance across locations
-- 📦 **Category Breakdown** - Revenue by product category
-- 👥 **Customer Insights** - Segment-wise analysis
-- 💳 **Payment Analysis** - Payment method distribution
-- 🔍 **Dynamic Filters** - Filter by date, store, category, and more
-- 📥 **Data Export** - Download filtered data as CSV
+- Interactive KPI Cards showing real-time metrics
+- Monthly and daily revenue trend analysis
+- Store performance comparison across locations
+- Product category breakdown with revenue share
+- Customer segment analysis
+- Payment method distribution
+- Dynamic filters for date, store, category, and segment
+- Data export functionality
 
 ---
 
 ## Dataset Description
 
-The dataset contains retail transaction records with the following structure:
+The dataset contains retail transaction records.
 
-| Column | Description | Example |
-|--------|-------------|---------|
-| `transaction_id` | Unique transaction identifier | TXN-2025-0001 |
-| `bill_id` | Bill/invoice number | BILL-0001 |
-| `date` | Transaction date | 2025-01-15 |
-| `store_id` | Store identifier | S1 |
-| `store_location` | Store location name | Downtown |
-| `customer_id` | Customer identifier | C001 |
-| `customer_segment` | Customer type | Loyal, Regular, New |
-| `product_id` | Product identifier | P101 |
-| `product_category` | Product category | Beverages, Snacks, etc. |
-| `product_name` | Product name | Orange Juice 1L |
-| `quantity` | Units purchased | 2 |
-| `unit_price` | Price per unit | 3.50 |
-| `payment_method` | Payment type | Cash, Credit Card, UPI |
-| `discount_applied` | Discount amount | 0.50 |
-| `channel` | Sales channel | In-store, Online |
+| Column | Description |
+|--------|-------------|
+| transaction_id | Unique transaction identifier |
+| bill_id | Bill number |
+| date | Transaction date |
+| store_id | Store identifier |
+| store_location | Store location name |
+| customer_id | Customer identifier |
+| customer_segment | Loyal, Regular, or New |
+| product_id | Product identifier |
+| product_category | Product category |
+| product_name | Product name |
+| quantity | Units purchased |
+| unit_price | Price per unit |
+| payment_method | Cash, Credit Card, UPI, Debit Card |
+| discount_applied | Discount amount |
+| channel | In-store or Online |
 
-**Dataset Statistics:**
-- **Records:** 250+ transactions
-- **Time Period:** January - March 2025
-- **Stores:** 3 locations
-- **Categories:** 6 product categories
+Dataset Statistics:
+- Records: 250+ transactions
+- Time Period: January to March 2025
+- Stores: 3 locations
+- Categories: 6 product categories
 
 ---
 
 ## Installation
 
-### Prerequisites
+Prerequisites:
 - Python 3.8 or higher
 - pip package manager
 
-### Steps
+Steps:
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/urbanmart-dashboard.git
-cd urbanmart-dashboard
+1. Clone the repository
